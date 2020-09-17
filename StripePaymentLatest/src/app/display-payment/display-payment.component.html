@@ -1,0 +1,16 @@
+<div #paymentGrid>
+    <div class="row">
+        <div class="col s3" style="font-weight: bold;">Name</div>
+        <div class="col s3" style="font-weight: bold;">Description</div>
+        <div class="col s3" style="font-weight: bold;">Amount</div>
+    </div>
+    <div *ngFor="let paymentData of paymentsData, index as i" class="row">
+        <!-- <div style="display: none;">{{paymentData.chargeId}}</div> -->
+        <div class="col s3">{{paymentData.name}}</div>
+        <div class="col s3">{{paymentData.description}}</div>
+        <div class="col s3">{{(paymentData.amount/100).toFixed(2)}}</div>
+        <div class="col s3">
+            <button type="button" *ngIf="!paymentData.isRefunded" (click)="refund(i)">Refund</button>
+        </div>
+    </div>
+</div>

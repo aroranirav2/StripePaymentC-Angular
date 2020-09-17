@@ -1,0 +1,59 @@
+<div class="row">
+    <form class="col s12" #paymentForm="ngForm" (ngSubmit)="onSubmit()" novalidate>
+        <div class="row">
+            <div class="input-field col s3">
+                <input type="text" [(ngModel)]="paymentModel.amount" name="amount" #amount="ngModel" required
+                    class="validate" />
+                <label>Amount</label>
+                <span *ngIf="amount.errors?.required" class="red-text">Amount is required</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s3">
+                <input type="text" [(ngModel)]="userModel.name" name="name" #name="ngModel" required class="validate" />
+                <label>Name</label>
+                <span *ngIf="name.errors?.required" class="red-text">Name is required</span>
+            </div>
+            <div class="input-field col s3">
+                <input type="email" [(ngModel)]="userModel.email" name="email" #email="ngModel" required
+                    class="validate">
+                <label>Email</label>
+                <span *ngIf="email.errors?.required" class="red-text">Email Is Required</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+                <input type="text" [(ngModel)]="userModel.addressLine1" name="addressLine1" #addressLine1="ngModel"
+                    required class="validate" />
+                <label>Street Address</label>
+                <span *ngIf="addressLine1.errors?.required" class="red-text">Street address is required</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s2">
+                <input type="text" [(ngModel)]="userModel.addressLine2" name="addressLine2" #addressLine2="ngModel" />
+                <label>Address Line 2</label>
+            </div>
+            <div class="input-field col s2">
+                <input type="text" [(ngModel)]="userModel.city" name="city" #city="ngModel" class="validate" required />
+                <label>City</label>
+                <span *ngIf="city.errors?.required" class="red-text">City is required</span>
+            </div>
+            <div class="input-field col s2">
+                <input type="text" [(ngModel)]="userModel.state" name="state" #state="ngModel" class="validate"
+                    required />
+                <label>State</label>
+                <span *ngIf="state.errors?.required" class="red-text">State is required</span>
+            </div>
+            <br /><br /><br /><br /><br /><br />
+            <div class="row col s6">
+                <label for="card-element">Credit or debit card</label>
+                <div id="card-element"></div>
+                <div id="card-errors" role="alert"></div>
+            </div>
+        </div>
+        <div class="row col s6">
+            <button type="submit" style="float: right;">Pay</button>
+        </div>
+    </form>
+</div>

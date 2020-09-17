@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "0aDc2x/4NYBsmu25TlUxqPR5MB3s4e2SJs+d05i3L31JrRnvcU5oWAWbsV4tAyzPjdTkapqwMGfCRhAJ1xF8aQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arora\\Documents\\GitHub\\StripePaymentC-Angular\\StripePaymentGatewayAPI\\PaymentGatewayAPI\\PaymentGatewayAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arora\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+    "C:\\Users\\arora\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\arora\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\arora\\.nuget\\packages\\stripe.net\\37.30.0\\stripe.net.37.30.0.nupkg.sha512",
+    "C:\\Users\\arora\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\arora\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "C:\\Users\\arora\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\arora\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
+    "C:\\Users\\arora\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
