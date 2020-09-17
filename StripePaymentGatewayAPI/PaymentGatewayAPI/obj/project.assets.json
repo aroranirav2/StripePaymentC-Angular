@@ -400,11 +400,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arora\\Documents\\GitHub\\StripePaymentC-Angular\\StripePaymentGatewayAPI\\PaymentGatewayAPI\\PaymentGatewayAPI.csproj",
+      "projectUniqueName": "C:\\Users\\arora\\Source\\Repos\\aroranirav2\\StripePaymentC-Angular\\StripePaymentGatewayAPI\\PaymentGatewayAPI\\PaymentGatewayAPI.csproj",
       "projectName": "PaymentGatewayAPI",
-      "projectPath": "C:\\Users\\arora\\Documents\\GitHub\\StripePaymentC-Angular\\StripePaymentGatewayAPI\\PaymentGatewayAPI\\PaymentGatewayAPI.csproj",
+      "projectPath": "C:\\Users\\arora\\Source\\Repos\\aroranirav2\\StripePaymentC-Angular\\StripePaymentGatewayAPI\\PaymentGatewayAPI\\PaymentGatewayAPI.csproj",
       "packagesPath": "C:\\Users\\arora\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arora\\Documents\\GitHub\\StripePaymentC-Angular\\StripePaymentGatewayAPI\\PaymentGatewayAPI\\obj\\",
+      "outputPath": "C:\\Users\\arora\\Source\\Repos\\aroranirav2\\StripePaymentC-Angular\\StripePaymentGatewayAPI\\PaymentGatewayAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arora\\AppData\\Roaming\\NuGet\\NuGet.Config",
